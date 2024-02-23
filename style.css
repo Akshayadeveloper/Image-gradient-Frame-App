@@ -1,0 +1,70 @@
+/* styles.css */
+@import url( 
+"https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    #upload-container {
+      margin-top: 20px;
+    }
+    #preview-container {
+      margin-top: 20px;
+      position: relative;
+    }
+    #preview-image {
+      max-width: 100%;
+      max-height: 600px;
+    }
+    #frame-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    #download-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ccc;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Responsive styles */
+    @media only screen and (min-width: 600px) {
+      #upload-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #upload-container input[type="file"] {
+        margin-right: 10px;
+      }
+    }
+  button{
+    background-image:url("https://i.pinimg.com/originals/a0/4d/4b/a04d4b5ed7c7d4bc264c292e267bcd8e.gif");
+ align:center;   
+  height:50px;
+  color:#fff;  
+  border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    perspective: 1000px;  
+  }
+  #download-button:active {
+    transform: scale(0.9);
+    transition: transform 0.1s;
+    background-image:url("https://www.gifcen.com/wp-content/uploads/2022/11/confetti-gif-3.gif");
+  }
+  #download-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  h1{color:#fff;
+   background-image:url("https://scitechdaily.com/images/Massive-Galaxy.gif");
+    /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyhheFFMzVT7i5v5xcLS4Xtk79-1DRN2IujDC3wBJXDHYob2ovvyu8su0&s=10");*/
+  }
